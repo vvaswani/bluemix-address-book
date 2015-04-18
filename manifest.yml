@@ -1,0 +1,6 @@
+applications:
+- name: contacts-demo
+memory: 256M
+instances: 1
+host: contacts-demo
+buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
